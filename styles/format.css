@@ -1,0 +1,265 @@
+.hidden {
+	display:none;
+}
+div#botcont h1 a {
+	color:#CCC;
+}
+div#botcont a, div#feature a, div#bio a, div#latestvid a, div#article a {
+	color:#900;
+	text-decoration:none;
+}
+div#botcont a:hover, div#feature a:hover, div#bio a:hover, div#latestvid a:hover, div#article a:hover {
+	color:#f00;
+	border-bottom:1px dotted #f00;
+}
+/*h1 {
+  font: bold 330%/100% "Lucida Grande";
+  position: relative;
+  color: #464646;
+}
+h1 span {
+  background: url(gradient.png) repeat-x;
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 31px;
+}*/
+body.main div#article div.head {
+	background:url('../images/articles/header/beer.jpg') no-repeat center center;
+	height:100px;
+	width:inherit;
+	border-bottom:1px solid black;
+}
+body.main div#article p {
+	margin:10px;
+
+}
+body.main div#article div.date {
+	margin:10px;
+	background-color:#FFC;
+	color:#666;
+	text-align:center;
+	float:left;
+	width:75px;
+	height:75px;
+}
+body.main div#article div.date p {
+	margin:12px 0;
+	font:normal 12px/8px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+body.main div#article div.date span {
+	color:#000;
+	text-align:center;
+	font:bold 48px/24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+/*******************
+******RIGHTMID******
+*******************/
+body.main div#rightmid p {
+	text-align:justify;
+	margin:5px;
+	color:#F00;
+	text-shadow:2px 2px 3px #900;
+	font:12px/16px Georgia, "Times New Roman", Times, serif;
+}
+body.main div#rightmid img {
+	width:203px;
+	margin:5px;
+}
+body.main div#rightmid ul a {
+	color:#900;
+	text-decoration:none;
+}
+body.main div#rightmid ul a:hover {
+	color:#F00;
+	border-bottom:1px dotted #f00;
+}
+body.main div#rightmid hr {
+	border:1px solid #900;
+}
+body.main div#rightmid ul {
+	list-style-type: none;
+	margin:0px;
+}
+body.main div#rightmid h1 {
+	color:#F00;
+	margin:5px 0 0 2px;
+	font:bold 34px Arial, Helvetica, sans-serif;
+}
+/******************
+******BOTCONT******
+******************/
+body.main div#botcont div {
+	margin:0;
+	width:175px;
+	height:inherit;
+	border-right:1px dotted black;
+	float:left;
+	overflow:hidden;
+}
+body.main div#botcont div h1 {
+	font: bold 20px Georgia, "Times New Roman", Times, serif;
+	text-shadow:2px 2px 5px #F33;
+	color: #CCC;
+	margin:5px 5px 0 5px;
+}
+body.main div#botcont div.last {
+	margin:0;
+	width:176px;
+	border:none;
+}
+body.main div#botcont ul {
+	padding:0 0 0 15px;
+	list-style:none;
+	margin:0;
+	color:#F00;
+	font:normal 14px/16px Georgia, "Times New Roman", Times, serif;
+}
+body.main div#footer span {
+	float:right;
+	color:#FFF;
+	font:normal 14px/14px Verdana, Geneva, sans-serif;
+	margin:8px 4px 0;
+	text-shadow:-2px 2px 3px #900;
+}
+body.main div#articlefoot {
+	color:#CCC;
+}
+body.main div#articlefoot em {
+	color:#000;
+}
+/*******************
+******MAIN MID******
+*******************/
+body.main div#latest h1, body.main div#latestvid h1, body.main div#feature h1  {
+	margin:5px;
+	font:bold 24px/26px Arial, Helvetica, sans-serif;
+	text-align:center;
+	color:#900;
+	border-bottom:1px solid #900;
+}
+
+body.main div#latestvid h1 {text-align:right;}
+body.main div#feature h1 {text-align:left;}
+body.main div#latest h1 a {
+	color:#900;
+	text-decoration:none;
+}
+body.main div#latest h1 a:hover {
+	color:#f00;
+	border-bottom:1px dotted #f00;
+}
+body.main div#latest div {
+	margin:15px 0 15px 0;
+	height:100px;
+	width:100%;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+body.main div#latest p {
+	margin:5px 0 5px 0;
+	text-align:center;
+	color:#f00;
+}
+body.main div#latest span {
+	margin-left:5px;
+	color:#900;
+	font-weight:bold;
+}
+body.main div#latest span em {
+	color:#f00;
+	font-style:normal;
+}
+body.main div#latestvid span {
+	margin:30px 10px 0;
+	float:right;
+	color:#f00;
+	width:180px;
+	height:165px;
+	overflow:hidden;
+}
+body.main div#latestvid img {
+	margin:0 0 0 5px;
+	width:198px;
+	height:198px;
+	float:left;
+	border:2px solid #f00;
+}
+body.main div#feature div p {
+	margin:0 5px 0 5px;
+	color:#f00;
+}
+/****************
+******QUOTE******
+****************/
+body.main div#quote {
+	height:100px;
+	background:rgba(0,0,0,.3) url(../images/dqu.png) no-repeat bottom right;
+}
+body.main div#quote p {
+	margin:0px 15px 0 15px;
+}
+body.main div#quote span {
+	color:#900;
+	float:right;
+	margin:-5px 0;
+}
+body.main div#quote div.main {
+	width:70%;
+	margin:0 0 0 15%;
+}
+body.main div#quote div.top{
+	height:29px;
+	background:url(../images/dq.png) no-repeat top left;
+}
+/****************
+******BIO******
+****************/
+body.main div#bio div {
+	margin:10px;
+}
+body.main div#bio div img {
+	border:2px solid #f00;
+}
+body.main div#bio div img.top {
+	float:left;
+	margin:5px;
+}
+body.main div#bio div img.bottom {
+	float:right;
+	margin:5px;
+}
+body.main div#bio div p {
+	margin:0;
+	color:#F00;
+}
+body.main div#bio h1 {
+	font:bold 34px Arial, Helvetica, sans-serif;
+	color:#900;
+	margin:5px 5px 0 5px;
+	border-bottom:1px solid #900;
+	text-align:right;
+}
+body.main div.img {
+	width:334px;
+	height:235px;
+	margin:10px 10px 5px 161px;
+	text-align:center;
+	background:url(/images/articles/shadow.png) no-repeat top center;
+}
+body.main div.img img {
+	display:block;
+	margin:0 0 7px 13px;
+	padding-top:2px;
+}
+body.main div.img span {
+	width:300px;
+	margin:0;
+	color:#333;
+	font-style:italic;
+}
+body.main div#footer span.w3links {
+	float:left;
+	margin:0;
+	padding:0;
+}

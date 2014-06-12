@@ -1,0 +1,19 @@
+div.tTable {
+	width:120px;
+	float:left;
+	border:1px solid black;
+}
+p {
+	margin:0;
+}
+p.red {
+	color:red;
+}
+p.green {
+	color:green;
+}
+p.blue {
+	color:blue;
+}
+table { border:1px solid black;}
+tr, td{ border:1px solid black;}

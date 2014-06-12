@@ -1,0 +1,50 @@
+table { border:1px solid black; margin:20px auto}
+
+tr, td{ border:1px solid black; }
+
+tr.row1 { background-color:#FFCCAA; }
+td.col1 { background-color:#FFFFCC; }
+
+form {
+  font-family: "Helvetica", sans-serif;
+}
+
+p, fieldset {
+  background-color: #ffffcc;
+  margin-left: auto;
+  margin-right: auto;
+  width: 21em;
+}
+
+p.warning {
+	display:none;
+	color: red;
+}
+
+p.hits {
+	background-color:#fff;
+	padding:5px;
+	border:1px dashed black;
+	font:20px bold;
+}
+
+p.table { text-align:center;}
+
+input[type="text"], select {
+  margin-bottom: 0.5em;
+  width: 10em;
+}
+
+input[type="submit"] {
+  font-weight: bold;
+  margin-left: 10em;
+}
+
+label {
+  /*background-color: #00ffcc;*/
+  float: left;
+  margin-right: 1em;
+  text-align: right;
+  width: 7em;
+}
+
