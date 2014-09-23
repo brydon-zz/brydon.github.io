@@ -1,4 +1,0 @@
-@charset "utf-8";
-@import "format.css";
-@import "global.css";
-@import "lightbox.css";
