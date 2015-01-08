@@ -3,7 +3,7 @@ title: beastman.ca
 author: "Brydon Eastman"
 email: brydon.eastman@gmail.com
 description: "Really cool blog about ... something"
-baseurl: "/" # comment out if site is in root folder
+#baseurl: "/" # comment out if site is in root folder
 url: "http://beastman.ca"
 more: "read more"
 
