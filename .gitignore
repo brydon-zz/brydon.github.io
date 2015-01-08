@@ -1,5 +1,8 @@
 _site/*
 _theme_packages/*
+build/*
+serve/*
+jekyll/*
 
 Thumbs.db
 .DS_Store
