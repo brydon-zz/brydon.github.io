@@ -19,18 +19,20 @@ Arc is multiplatform. Please follow the instructions for your specific platform 
 Or, alternatively, run this code in terminal:
 
 (From a machine where you don't have sudo privileges, i.e. CS lab)
+
 ```
-wget http://beastman.ca/arc
-chmod +x arc
+wget http://beastman.ca/arc\n
+chmod +x arc\n
 ./arc
 ```
 For the above, anytime you need to re-run arc type in `./arc` from the terminal!
 
 (From a machine where you have sudo privileges)
+
 ```
-wget http://beastman.ca/arc
-chmod +x arc
-sudo mv arc /usr/sbin/arc
+wget http://beastman.ca/arc\n
+chmod +x arc\n
+sudo mv arc /usr/sbin/arc\n
 arc
 ```
 For the above, anytime you need to re-run arc type `arc` from the terminal!
